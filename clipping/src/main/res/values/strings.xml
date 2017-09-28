@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="personal_information_popupwindow_camera">拍照</string>
+    <string name="personal_information_popupwindow_pic">图库</string>
+    <string name="personal_information_popupwindow_finsh">取消</string>
+
+</resources>

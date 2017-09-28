@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#86000000"
+    >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="167.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/picture_selector_take_photo_btn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/personal_information_popupwindow_camera"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            />
+
+        <TextView
+            android:id="@+id/picture_selector_pick_picture_btn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/personal_information_popupwindow_pic"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:background="#ccc"
+            />
+
+        <TextView
+            android:id="@+id/picture_selector_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/personal_information_popupwindow_finsh"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
